@@ -67,7 +67,7 @@ plugin_test_command() {
                 echo "but it does not properly sets an Authorization header to prevent"
                 echo "GitHub API rate limiting."
                 echo
-                echo "See https://github.com/asdf-vm/asdf/blob/master/docs/creating-plugins.md#github-api-rate-limiting"
+                echo "See https://github.com/asdf-vm/asdf/blob/master/docs/plugins-create.md#github-api-rate-limiting"
 
                 fail_test "$plugin_name/bin/list-all does not set GitHub Authorization token"
             fi
